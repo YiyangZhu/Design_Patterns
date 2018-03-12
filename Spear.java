@@ -14,7 +14,8 @@ class Spear implements WeaponStrategy{
     
     @Override
     public int attack(){
-        return 10;
+        int r = (int)(Math.random()*11+20);
+        return r;
     }
 }
     

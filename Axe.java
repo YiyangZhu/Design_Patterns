@@ -14,7 +14,8 @@ class Axe implements WeaponStrategy{
     
     @Override
     public int attack(){
-        return 5;
+        int r = (int)(Math.random()*51);
+        return r;
     }
 }
     

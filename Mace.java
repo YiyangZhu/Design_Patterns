@@ -14,7 +14,8 @@ class Mace implements WeaponStrategy{
     
     @Override
     public int attack(){
-        return 15;
+        int r = (int)(Math.random()*31+10);
+        return r;
     }
 }
     
