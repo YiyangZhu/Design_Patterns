@@ -1,7 +1,7 @@
 class Singleton{
     static Singleton instance = null;
     
-    Singleton getInstance(){
+    static Singleton getInstance(){
         if(instance == null){
             instance = new Singleton();
         }
@@ -13,6 +13,7 @@ class Singleton{
         Singleton s2 = new Singleton();
         System.out.println(s.getInstance());
         System.out.println(s2.getInstance());
+        System.out.println(Singleton.getInstance());
     }
 }
         
