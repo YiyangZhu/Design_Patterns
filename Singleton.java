@@ -1,7 +1,9 @@
 class Singleton{
-    static Singleton instance = null;
+    private static Singleton instance = null;
     
-    static Singleton getInstance(){
+    private Singleton(){}
+    
+    public static Singleton getInstance(){
         if(instance == null){
             instance = new Singleton();
         }
