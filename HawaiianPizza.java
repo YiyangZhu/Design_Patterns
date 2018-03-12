@@ -1,0 +1,2 @@
+class HawaiianPizza extends Pizza{
+}

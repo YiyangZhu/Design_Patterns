@@ -1,0 +1,2 @@
+class ChickenPizza extends Pizza{
+}
